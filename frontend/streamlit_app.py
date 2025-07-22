@@ -4,7 +4,7 @@ from PIL import Image
 import io
 import base64
 
-API_URL = "http://localhost:8000/predict"
+API_URL = "http://backend:8000/predict"
 
 st.set_page_config(page_title="YOLOv8 Object Detection", layout="centered")
 st.title("YOLOv8 - Technical Drawing Symbol Detector")
